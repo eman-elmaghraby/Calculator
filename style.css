@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: rgb(236, 235, 235);
+}
+
+.container {
+  background-color: white;
+  width: 244px;
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, 50%);
+}
+.calc {
+  margin: 20px;
+}
+
+.result {
+  background-color: red;
+  padding: 13px;
+  border: none;
+  margin: 7px;
+  border-radius: 6px;
+  color: white;
+  text-align: end;
+  font-weight: 700;
+}
+button {
+  padding: 13px;
+  border-radius: 50%;
+  border: none;
+  margin: 7px;
+}
+input::placeholder {
+  color: white;
+  font-weight: bolder;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.btnDelete {
+  background: rgb(126, 10, 10);
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.btnSuccess {
+  width: 194px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  font-size: large;
+  font-weight: 800;
+}
